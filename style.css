@@ -1,0 +1,783 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(./images/2484157.jpg);
+    background-size: cover;
+    height: 700px;
+    
+}
+.patti{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+label{
+    color: white;
+    font-size: 65px;
+    padding-left: 80px;
+}
+.button{
+    color: white;
+    float: right;
+    margin-right: 30px;
+    display: flex;
+    list-style: none;
+}
+li{
+    font-size: 30px;
+    margin-right: 35px;
+    padding-top: 25px;
+}
+h1{
+    color: white;
+    font-size: 80px;
+    line-height: 80px;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+.headerp{
+    font-size: 30px;
+    color: white;
+    padding-left: 155px;
+    padding-top: 30px;
+    line-height: 40px;
+}
+.grow{
+    height: 40px;
+    width: 300px;
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 170px;
+    /* left: 170px; */
+    top: 130px;
+    
+}
+.growp{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding-left: 20px;
+    padding-top: 7px;
+    
+}
+.explor{
+    height: 70px;
+    width: 250px;
+    background-image: linear-gradient(to right,blue,purple,red);
+    margin-top: 60px;
+    margin-left: 150px;
+    /* top: 60px;
+    left: 150px; */
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 70px;
+}
+.contactusbutton{
+    height: 70px;
+    width: 250px;
+    margin-top: -69px;
+    margin-left: 430px;
+    /* top: -10px;
+    left: 430px; */
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0,0.5);
+}
+.iconrow{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    right: 30px;
+    justify-content: space-between;
+    margin: 0 150px;
+    
+}
+.featureboxone{
+    display: flex;
+}
+.featureboxtwo{
+    display: flex;
+}
+.featureboxthree{
+    display: flex;
+}
+.contenticon{
+    font-size: 21px;
+    position: relative;
+    left: 45px;
+}
+.bagcontent{
+    font-size: 21px;
+    position: relative;
+    left: 45px;
+}
+.rocketcontent{
+    font-size: 21px;
+    position: relative;
+    left: 45px;
+}
+.blubiconimg{
+    position: relative;
+    bottom: 5px;
+    left: 30px;
+}
+.bagiconimg{
+    position: relative;
+    bottom: 5px;
+    left: 30px;
+}
+.rocketiconimg{
+    position: relative;
+    bottom: 5px;
+    left: 30px;
+    
+}
+.picone{
+    margin-left: 90px;
+    margin-top: 270px;
+    border-radius: 50px;
+}
+.pictwo{
+    position: relative;
+    right: 97px;
+    top: 88px;
+    border-radius: 50px;
+}
+.agenceyh{
+    font-size: 50px;
+    margin-left: 710px;
+    position: relative;
+    bottom: 343px;
+    line-height: 43px;
+}
+.agenceyp{
+    font-size: 26px;
+    margin-left: 710px;
+    position: relative;
+    bottom: 320px;
+    line-height: 32px;
+}
+.growth{
+    height: 30px;
+    width: 530px;
+    background-color: rgb(245, 39, 39);
+    position: relative;
+    left: 730px;
+    bottom: 270px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,rgb(245, 39, 39) , white);
+    color: white;
+}
+.growtht{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 14px;
+}
+#growthpercent{
+    color:rgb(245, 39, 39) ;
+}
+.tech{
+    height: 30px;
+    width: 400px;
+    background-color: rgb(36, 211, 241);
+    background-image: linear-gradient(to right,rgb(36, 211, 241),white);
+    position: relative;
+    left: 730px;
+    bottom: 262px;
+    border-radius: 20px;
+    color: white;
+}
+.techt{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 15px;
+}
+#techpercent{
+    color:rgb(36, 211, 241) ;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    position: relative;
+    bottom: 130px;
+}
+.amazon{
+    height: 45px;
+}
+.walmart{
+    height: 60px;
+}
+.yahoo{
+    height: 50px;
+}
+.invision{
+    height: 60px;
+}
+.businessServices{
+    background-color: lightgray;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    bottom: 70px;
+}
+.businessServicesdiv{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+.businessServicesh{
+    font-size: 60px;
+    line-height: 65px;
+    padding-top: 70px;
+}
+.businessServicesp{
+    font-size: 24px;
+    line-height: 33px;
+    padding-top: 90px;
+    position: relative;
+    right: 210px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 30px;
+}
+.techinnovation{
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: white;
+    background-image: url(./images/tech.jpg);
+    background-repeat: no-repeat;
+    background-size: 330px;
+}
+.cloudcomputing{
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: white; 
+    background-image: url(./images/computing.jpg);
+    background-repeat: no-repeat;
+    background-size: 330px;
+}
+.financeconsulting{
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: white; 
+    background-image: url(./images/curuncey.jpg); 
+    background-repeat: no-repeat;
+    background-size: 330px;
+}
+.digitalcommerce{
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: white; 
+    background-image: url(./images/ecommerce.jpg);
+    background-size: 330px;
+    background-repeat: no-repeat;
+}
+.techinnovationc{
+    text-align: center;
+    position: relative;
+    top: 260px;
+    font-size: 22px; 
+}
+.techline{
+    position: relative;
+    top: 40px;
+    line-height: 40px;
+}
+.cloudcomputingc{
+    text-align: center;
+    position: relative;
+    top: 260px;
+    font-size: 22px;
+}
+.cloudlineline{
+    position: relative;
+    top: 40px;
+    line-height: 40px;
+}
+.financeconsultingc{
+    text-align: center;
+    position: relative;
+    top: 260px;
+    font-size: 22px;
+}
+.financeline{
+    position: relative;
+    top: 40px;
+    line-height: 40px;
+}
+.digitalcommercec{
+    text-align: center;
+    position: relative;
+    top: 260px;
+    font-size: 22px;
+}
+.digitalline{
+    position: relative;
+    top: 40px;
+    line-height: 40px;
+}
+.gridservices{
+    background-color: rgb(17, 17, 51);
+    height: 850px;
+    width: 100%;
+    position: relative;
+    bottom: 71px;
+}
+.gridservicesheading{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+.gridcontainer{
+    display: grid;
+    grid-auto-columns: auto,auto,auto;
+    padding: 100px;
+}
+.itemss1{
+    background-color:rgb(17, 17, 51);
+    border: 1px solid gray;
+    height: 160px;
+    width: 187px;
+    border-top: 0px;
+
+}
+.itemss2{
+    background-color:rgb(17, 17, 51);
+    border: 1px solid gray;
+    height: 160px;
+    width: 187px;
+    border-bottom: 0px;
+}
+#items11{
+    border-left: 0px;
+}
+#items22{
+    border-right: 0px;
+}
+.container1{
+    display: flex;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.container2{
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.mic{
+    height: 85px;
+    width: 55px;
+    position: relative;
+    left: 60px;
+    top: 25px;
+    
+}
+.bag{
+    height: 90px;
+    width: 70px;
+    position: relative;
+    left: 60px;
+    top: 25px;
+}
+.bee{
+    height: 90px;
+    width: 70px;
+    position: relative;
+    left: 60px;
+    top: 25px;
+}
+.brficas{
+    height: 80px;
+    width: 100px;
+    position: relative;
+    left: 45px;
+    top: 25px;
+}
+.road{
+    height: 90px;
+    width: 80px;
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+.food{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.cow{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+.daimond{
+    height: 83px;
+    width: 100px;
+    position: relative;
+    left: 45px;
+    top: 20px;
+}
+.drop{
+    height: 100px;
+    width: 75px;
+    position: relative;
+    left: 55px;
+    top: 5px;
+}
+.farm{
+    height: 90px;
+    width: 100px;
+    position: relative;
+    left: 45px;
+    top: 15px;
+}
+.setting{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+.events{
+    height: 90px;
+    width: 100px;
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+.mich{
+    position: relative;
+    left: 18px;
+    top: 35px;
+}
+.bagh{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+.beeh{
+    position: relative;
+    left: 35px;
+    top: 30px;
+}
+.brficash{
+    position: relative;
+    left: 12px;
+    top: 40px;
+}
+.roadh{
+    position: relative;
+    left: 43px;
+    top: 30px;
+}
+.foodh{
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+.cowh{
+    position: relative;
+    left:50px;
+    top: 18px;
+}
+.daimondh{
+    position: relative;
+    left: 18px;
+    top: 35px;
+}
+.droph{
+    position: relative;
+    left: 45px;
+    top: 17px;
+}
+.farmh{
+    position: relative;
+    left: 35px;
+    top: 27px;
+}
+.settingh{
+    position: relative;
+    left: 18px;
+    top: 35px;
+}
+.eventsh{
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+.recenth{
+    color: black;
+    font-size: 60px;
+    position: relative;
+    bottom: 160px;
+    right: 110px;
+}
+.maincotainerrecent{
+    display: flex;
+    float: right;
+    margin: 0 64px;
+}
+.recentul{
+    display: flex;
+    position: relative;
+    right: -68px;
+}
+.recentli{
+    list-style: none;
+}
+.first{
+    display: grid;
+    grid-template-columns: auto,auto,auto,auto;
+    background-color: rgb(255, 255, 255);
+    height: 950px;
+    width: 100%;
+    padding: 10px;
+    grid: 100px / auto auto auto;
+    gap: 10px;
+    row-gap: 30px;
+}
+.abcd{
+    display: flex;
+    margin-left: 130px;
+    
+    
+}
+.efg{
+    display: flex;
+    position: relative;
+    right: 1060px;
+    top: 490px;
+    
+
+}
+.recentimg1{
+    height: 450px;
+    width: 350px;
+    border-radius: 7px;
+    background-color: black;
+    position: relative;
+    right: 20px;
+    background-image: url(./images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recentimg2{
+    height: 450px;
+    width: 350px;
+    border-radius: 7px;
+    background-color: black;
+    background-image: url(./images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recentimg3{
+    height: 450px;
+    width: 350px;
+    border-radius: 7px;
+    background-color: black;
+    position: relative;
+    left: 20px;
+    background-image: url(./images/ai\ girl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recentimg4{
+    height: 450px;
+    width: 350px;
+    border-radius: 7px;
+    background-color: black;
+    position: relative;
+    right: 20px;
+    background-image: url(./images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recentimg5{
+    height: 450px;
+    width: 350px;
+    border-radius: 7px;
+    background-color: black;
+    background-image: url(./images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recentimg6{
+    height: 450px;
+    width: 350px;
+    border-radius: 7px;
+    background-color: black;
+    position: relative;
+    left: 20px;
+    background-image: url(./images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2ndlast{
+    color: black;
+    text-align: center;
+    font-size: 75px;
+    position: absolute;
+    left: 44px;
+}
+.img2ndlast{
+    height: 170px;
+    width: 240px;
+    position: relative;
+    top: 360px;
+    left: 280px;
+    border-radius: 100px;
+}
+.para{
+    position: relative;
+    left: 540px;
+    top: 186px;
+    font-size: 30px;
+}
+.invisioninpara{
+    height: 42px;
+    width: 170px;
+}
+.lastsec{
+    height: 900px;
+    width: 100%;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 240px;
+}
+.lastsech{
+    text-align: center;
+    position: relative;
+    right: 40px;
+    font-size: 124px;
+    line-height: 106px;
+    color: white;
+}
+.hassan{
+    height: 40px;
+    width: 470px;
+    background-color: rgba(0, 0, 0,0.5);
+    position: relative;
+    top: 124px;
+    left: 470px;
+    border-radius: 20px;
+    
+}
+.shahzaib{
+    display: flex;
+    position: absolute;
+    right: 16px;
+}
+.handmic{
+    height: 36px;
+    width: 45px;
+}
+.micp{
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: 11px;
+}
+.button1{
+    height: 70px;
+    width: 250px;
+    background-image: linear-gradient(to right,blue,purple,red);
+    position: relative;
+    top: 150px;
+    left: 150px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 70px;
+}
+.footerrow{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    
+}
+.colum1{
+    font-size: 30px;
+    position: relative;
+    right: 50px;
+}
+.colum1>h6{
+    font-size: 30px;
+}
+.colum2>span{
+    font-size: 30px;
+}
+.colum3>span{
+    font-size: 30px;
+}
+.colum4>span{
+    font-size: 30px;
+}
+.colum5>span{
+    font-size: 27px;
+}
+.colum5>p{
+    font-size: 18px;
+}
+#lastbtn:hover{
+    transform: scale(1.1);
+}
+#recentli1:hover{
+     transform: scale(1.1);
+}
+#recentli2:hover{
+    transform: scale(1.1);
+}
+#recentli3:hover{
+    transform: scale(1.1);
+}
+#recentli4:hover{
+    transform: scale(1.1);
+}
+#recentli5:hover{
+    transform: scale(1.1);
+}
+#items11:hover{
+    transform: scale(1.2);
+}
+#items22:hover{
+    transform: scale(1.2);
+}
+#navba:hover{
+   transform: scale(1.2);
+   transition: 0.1s;
+}
+
+
+
+
